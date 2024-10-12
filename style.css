@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 .bg-custom {
-  background-image: url('https://images.pexels.com/photos/558478/pexels-photo-558478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  /* background-image: url('https://images.pexels.com/photos/558478/pexels-photo-558478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+  background-image: url('https://images.pexels.com/photos/1529881/pexels-photo-1529881.jpeg');
   /*background-repeat: repeat-x;*/
   background-position: center;
   background-size: cover;
@@ -10,4 +11,69 @@
 
 #visit {
   -webkit-text-stroke: 2px white;
+}
+
+#Booking {
+  /* background-image: url('https://images.pexels.com/photos/5405598/pexels-photo-5405598.jpeg'); */
+  background-image: url('https://images.pexels.com/photos/1398049/pexels-photo-1398049.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay */
+  z-index: 1;
+}
+
+#Booking * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Star reting */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.ml-2 {
+  margin-left: 8px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-gray-600 {
+  color: #718096;
+}
+
+/* Navbar (show/hide) */
+#navbar_small {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  #navbar {
+    display: none;
+  }
+
+  #navbar_small {
+    display: flex;
+  }
 }

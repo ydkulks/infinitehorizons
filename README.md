@@ -21,3 +21,20 @@ As this is a project course, there will be no end semester exam for this. Your m
     - [x] In the second line, add heading greater size compared to first line having text “Visit Placename” (Write sample 5 to 6 country name which automatically change after 0.2 seconds.). 
     - [x] In the third line, add “Book Now” button. 
     - [x] All these 3 components should be center aligned to the background image.
+
+## Checkpoint 2
+- [x] Create 2 section of a row having 50% width each.
+- [x] In the 50% width add image related to brand or company.
+- [x] In the right 50% width add a form which contain following information –
+    - [x] Where to (dropdown list should be visible containing some sample places)
+    - [x] How Many Person
+    - [x] Start Date (should take future date)
+    - [x] End Date (should accept greater date than start date)
+    - [x] Description. (Should be textarea minimum 50 characters and maximum 500 characters need to be enter.)
+    - [x] Book Now button (after clicking it, if all the fields are filled, then alert should appear with message, booking successful)
+- [x] In the next Section, Package gallery should be visible, in one row, user should able to see 3 package, total create 3 row having 9 package.
+- [x] Each package should be visible in card (box). In the card, display image of the place first, then add Place Name as heading and below placename, add small paragraph (attractions) of the place.
+- [x] Price which should be in USD Dollar, Rating and Book now button.
+- [x] After Package Sections, add Services section where you need to add various services offered by the company.
+- [x] Some examples are Affordable Hotel, Food & Drinks, Safety Guide. You need to add a total of 6 services, out of which atleast you 3 services you must add on your own. These services should be design as per your convenience.
+You may choose bullets, card, slider etc.
