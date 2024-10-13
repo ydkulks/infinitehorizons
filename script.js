@@ -185,21 +185,21 @@ function makeNavbarSticky() {
   // xl:mx-12
   if (window.scrollY >= stickyPoint) {
     navbar.classList.add("sticky");
-    navbar.classList.remove("xl:mx-12")
+    // navbar.classList.remove("xl:mx-12")
     // Small
     navbar_sm.classList.add("sticky");
-    navbar_sm.classList.remove("xl:mx-12")
+    // navbar_sm.classList.remove("xl:mx-12")
     // Menu
     menu.classList.add("sticky");
-    menu.classList.remove("xl:mx-12")
+    // menu.classList.remove("xl:mx-12")
   } else {
     navbar.classList.remove("sticky");
-    navbar.classList.add("xl:mx-12")
+    // navbar.classList.add("xl:mx-12")
     // Small
     navbar_sm.classList.remove("sticky");
-    navbar_sm.classList.add("xl:mx-12")
+    // navbar_sm.classList.add("xl:mx-12")
     // Menu
     menu.classList.remove("sticky");
-    menu.classList.add("xl:mx-12")
+    // menu.classList.add("xl:mx-12")
   }
 }
