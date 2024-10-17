@@ -38,3 +38,12 @@ As this is a project course, there will be no end semester exam for this. Your m
 - [x] After Package Sections, add Services section where you need to add various services offered by the company.
 - [x] Some examples are Affordable Hotel, Food & Drinks, Safety Guide. You need to add a total of 6 services, out of which atleast you 3 services you must add on your own. These services should be design as per your convenience.
 You may choose bullets, card, slider etc.
+
+## Checkpoint 3
+- [x] After Services section, add Gallery section
+    - [x] Add photos, glimpse experienced by the company. These gallery should be designed as per your convenience.
+    - [x] Add transform (scale) css property to the images, when user hover mouse on it.
+- [x] Add About us section
+    - [x] Create 2 section of a row having 50% width each.
+    - [x] Left: Brand related image. Right: Company info, establishment and other details
+- [x] Add footer with brand name, social media icon and copyright symbol with message `All Rights are Reserved`
