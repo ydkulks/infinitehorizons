@@ -65,11 +65,12 @@ function StaticStarRating(rating, maxRating, uniqueId) {
 
     const stop1 = document.createElementNS(svgNS, 'stop');
     stop1.setAttribute('offset', `${fillPercentage}%`);
-    stop1.setAttribute('stop-color', 'black');
+    // stop1.setAttribute('stop-color', 'black');
+    stop1.setAttribute('stop-color', '#536493');
 
     const stop2 = document.createElementNS(svgNS, 'stop');
     stop2.setAttribute('offset', `${fillPercentage}%`);
-    stop2.setAttribute('stop-color', 'white');
+    stop2.setAttribute('stop-color', '#FFF1DB');
 
     linearGradient.appendChild(stop1);
     linearGradient.appendChild(stop2);
@@ -80,7 +81,8 @@ function StaticStarRating(rating, maxRating, uniqueId) {
       'd',
       'M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z'
     );
-    path.setAttribute('stroke', 'black');
+    // path.setAttribute('stroke', 'black');
+    path.setAttribute('stroke', '#536493');
     path.setAttribute('stroke-width', '2');
     path.setAttribute('stroke-linecap', 'round');
     path.setAttribute('stroke-linejoin', 'round');
@@ -93,7 +95,7 @@ function StaticStarRating(rating, maxRating, uniqueId) {
   }
 
   const ratingText = document.createElement('span');
-  ratingText.className = 'ml-2 text-sm text-gray-600';
+  ratingText.className = 'ml-2 text-sm text-[#536493]';
   ratingText.textContent = `${validRating.toFixed(1)}`;
 
   container.appendChild(ratingText);

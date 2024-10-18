@@ -867,9 +867,9 @@ video {
   border-width: 1px;
 }
 
-.border-gray-200 {
+.border-\[\#536493\] {
   --tw-border-opacity: 1;
-  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+  border-color: rgb(83 100 147 / var(--tw-border-opacity));
 }
 
 .border-gray-300 {
@@ -877,33 +877,38 @@ video {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.bg-black {
+.bg-\[\#536493\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(83 100 147 / var(--tw-bg-opacity));
 }
 
-.bg-gray-100 {
+.bg-\[\#EF5A6F\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  background-color: rgb(239 90 111 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FFF1DB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 241 219 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FFF1DB\]\/90 {
+  background-color: rgb(255 241 219 / 0.9);
+}
+
+.bg-\[\#e4e8f3\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 232 243 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#ffcfd0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 207 208 / var(--tw-bg-opacity));
 }
 
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.bg-gray-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-white\/80 {
-  background-color: rgb(255 255 255 / 0.8);
 }
 
 .bg-none {
@@ -1048,46 +1053,36 @@ video {
   font-weight: 500;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-thin {
   font-weight: 100;
+}
+
+.tracking-\[0\.1rem\] {
+  letter-spacing: 0.1rem;
 }
 
 .tracking-\[0\.2rem\] {
   letter-spacing: 0.2rem;
 }
 
-.text-black {
+.text-\[\#536493\] {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(83 100 147 / var(--tw-text-opacity));
 }
 
-.text-gray-200 {
+.text-\[\#9d6d4a\] {
   --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
+  color: rgb(157 109 74 / var(--tw-text-opacity));
 }
 
-.text-gray-300 {
+.text-\[\#EF5A6F\] {
   --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
+  color: rgb(239 90 111 / var(--tw-text-opacity));
 }
 
-.text-gray-50 {
+.text-\[\#FFF1DB\] {
   --tw-text-opacity: 1;
-  color: rgb(249 250 251 / var(--tw-text-opacity));
-}
-
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
+  color: rgb(255 241 219 / var(--tw-text-opacity));
 }
 
 .text-gray-900 {
@@ -1117,6 +1112,12 @@ video {
   opacity: 1;
 }
 
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .shadow-black {
   --tw-shadow-color: #000;
   --tw-shadow: var(--tw-shadow-colored);
@@ -1143,34 +1144,29 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.hover\:bg-black:hover {
+.hover\:bg-\[\#536493\]:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(83 100 147 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-gray-200:hover {
+.hover\:bg-\[\#FFF1DB\]:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  background-color: rgb(255 241 219 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-gray-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-900:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
-.hover\:text-gray-50:hover {
+.hover\:text-\[\#536493\]:hover {
   --tw-text-opacity: 1;
-  color: rgb(249 250 251 / var(--tw-text-opacity));
+  color: rgb(83 100 147 / var(--tw-text-opacity));
 }
 
-.hover\:text-gray-900:hover {
+.hover\:text-\[\#EF5A6F\]:hover {
   --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
+  color: rgb(239 90 111 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#FFF1DB\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 241 219 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
