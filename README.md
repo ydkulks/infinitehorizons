@@ -47,3 +47,12 @@ You may choose bullets, card, slider etc.
     - [x] Create 2 section of a row having 50% width each.
     - [x] Left: Brand related image. Right: Company info, establishment and other details
 - [x] Add footer with brand name, social media icon and copyright symbol with message `All Rights are Reserved`
+
+## Checkpoint 4
+- [x] Registration button should trigger a registration form
+    - [x] It should have: fullname, contact, date of birth, email id, password, gender, register button, link to login page.
+    - [ ] Validate the form
+- [x] Login button should trigger login form
+    - [x] It should have: email id, password and login button, link to registration form
+- [ ] Convert to React.js project
+- [ ] Deploy it to netlify or on github pages

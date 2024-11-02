@@ -10,6 +10,22 @@
   background-repeat: no-repeat;
 }
 
+#register_pic{
+  /* background-image: url('https://images.pexels.com/photos/12314825/pexels-photo-12314825.jpeg'); */
+  background-image: url('./palmtrees.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#login_pic{
+  /* background-image: url('https://images.pexels.com/photos/12314825/pexels-photo-12314825.jpeg'); */
+  background-image: url('./pool.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #visit {
   -webkit-text-stroke: 2px #FFF1DB;
 }
