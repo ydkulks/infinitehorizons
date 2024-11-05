@@ -155,7 +155,7 @@
         You're Journey Starts Here</h2>
     </div>
     <div class="flex justify-center w-full lg:w-1/2 md:w-1/2 items-center">
-      <form class="w-[600px] h-fit py-5 px-10 rounded-lg my-10" id="">
+      <form class="w-[600px] h-fit py-5 px-10 rounded-lg my-10" id="registrationForm">
         <h2 class="text-5xl text-[#EF5A6F] my-4 font-extrabold">Register
         </h2>
         <h2 class="text-5xl my-4 text-[#536493] font-thin"
@@ -165,22 +165,25 @@
         <input type="text" name="fullname" id="" class="w-full border border-gray-300 text-gray-900 rounded-md my-1 p-1"
           placeholder="Full Name" required />
 
+        <span class="text-red-700" id="contactError"></span>
         <label for="contact" class="text-[#536493] font-bold">Contact</label>
-        <!-- <input type="text" name="contact" id="" class="w-full border border-gray-300 text-gray-900 rounded-md my-1 p-1" -->
-        <!--   placeholder="Contact" required /> -->
-        <input type="number" name="contact" id="" class="w-full border border-gray-300 text-gray-900 rounded-md my-1 p-1"
+        <input type="number" name="contact" id="rfContact" class="w-full border border-gray-300 text-gray-900 rounded-md my-1 p-1"
           placeholder="Contact" required />
 
+        <span class="text-red-700" id="dobError"></span>
         <label for="dob" class="text-[#536493] font-bold">Date of Birth</label>
-        <input type="date" name="dob" id="start" class="w-full border border-gray-300 text-gray-900 rounded-md my-1 p-1"
+        <input type="date" name="dob" id="rfDob" class="w-full border border-gray-300 text-gray-900 rounded-md my-1 p-1"
           placeholder="Date of Birth" required />
 
         <label for="email" class="text-[#536493] font-bold">Email Address</label>
         <input type="email" name="email" id="" class="w-full border border-gray-300 text-gray-900 rounded-md my-1 p-1"
           placeholder="Email ID" required />
 
+        <span class="text-red-700" id="pwdError1"></span>
+        <span class="text-red-700" id="pwdError2"></span>
+        <span class="text-red-700" id="pwdError3"></span>
         <label for="password" class="text-[#536493] font-bold">Password</label>
-        <input type="password" name="password" id=""
+        <input type="password" name="password" id="rfPassword"
           class="w-full border border-gray-300 text-gray-900 rounded-md my-1 p-1" placeholder="Password" required />
 
         <label for="gender" class="text-[#536493] font-bold">Gender</label><br>
@@ -199,7 +202,6 @@
         <a href="login.html">
           <p class="text-[#536493] text-sm font-bold text-center hover:underline">Login</p>
         </a>
-        <!-- <a href="./login.html" class="text-center">Login now!</a> -->
       </form>
     </div>
   </div>
@@ -242,7 +244,8 @@
     </p>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- <script src="script.js"></script> -->
+  <script src="register.js"></script>
 </body>
 
 </html>

@@ -51,8 +51,7 @@ You may choose bullets, card, slider etc.
 ## Checkpoint 4
 - [x] Registration button should trigger a registration form
     - [x] It should have: fullname, contact, date of birth, email id, password, gender, register button, link to login page.
-    - [ ] Validate the form
+    - [x] Validate the form
 - [x] Login button should trigger login form
     - [x] It should have: email id, password and login button, link to registration form
-- [ ] Convert to React.js project
 - [ ] Deploy it to netlify or on github pages
