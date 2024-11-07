@@ -54,4 +54,4 @@ You may choose bullets, card, slider etc.
     - [x] Validate the form
 - [x] Login button should trigger login form
     - [x] It should have: email id, password and login button, link to registration form
-- [ ] Deploy it to netlify or on github pages
+- [x] Deploy it to netlify or on github pages (deployed on [vercel](https://infinitehorizons.vercel.app))

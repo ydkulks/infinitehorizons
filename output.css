@@ -732,6 +732,10 @@ video {
   height: 1rem;
 }
 
+.h-\[120vh\] {
+  height: 120vh;
+}
+
 .h-\[300px\] {
   height: 300px;
 }
@@ -744,10 +748,6 @@ video {
   height: 90vh;
 }
 
-.h-\[95vh\] {
-  height: 95vh;
-}
-
 .h-auto {
   height: auto;
 }
@@ -755,6 +755,10 @@ video {
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.min-h-\[800px\] {
+  min-height: 800px;
 }
 
 .w-1\/2 {
